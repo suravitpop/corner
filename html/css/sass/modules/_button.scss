@@ -1,0 +1,9 @@
+//BUTTON
+
+@mixin btn-sub($width)
+{
+	@include transition("all","0.2s","ease-out");
+
+
+}
+

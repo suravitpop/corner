@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0 !important;
+}
+.navbar{
+  border-radius: 0px !important;
+}
+.navbH{
+  position: relative;
+  .navDesktop{
+    font-size:20px;
+    .navbar-inverse {
+      background-color: #00A79D;
+      border-color: #00A79D;
+      height: 90px;
+    }
+  }
+  .mm-panels>.mm-panel>.mm-listview:first-child, .mm-panels>.mm-panel>.mm-navbar+.mm-listview {
+    font-size: 20px;
+  }
+  .fa{
+    font-size: 30px !important;
+    margin-top:8px;
+    margin-right:10px;
+    color: darkslategrey;
+  }
+  .mm-menu.mm-theme-dark .mm-navbar a, .mm-menu.mm-theme-dark .mm-navbar>*, .mm-menu.mm-theme-dark em.mm-counter {
+    font-size: 28px;
+  }
+  .glyphicon {
+    top:4px !important;
+  }
+  .navbar-brand{
+    img{
+      width:100px;
+    }
+  }
+  .navbar-inverse {
+    margin-bottom:0;
+    color: #ffffff !important;
+    .navbar-nav>li>a{
+      color: #ffffff !important;
+    }
+
+  }
+  .navbar-right{
+    margin-right: 0px;
+  }
+  .navbar-nav{
+    margin:0 100px !important;
+    li {
+      margin-top: 33px;
+    }
+    li.signB {
+      margin-top: 37px;
+      border-right: 1px solid #ffffff;
+      padding-top: 43px;
+    }
+    li.active {
+      a {
+        background-color: transparent !important;
+        color: black !important;
+      }
+    }
+  }
+  .ribbon {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    background: #FFA626;
+    height: 240px;
+    width: auto;
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 0 0px 0 0px;
+    position: relative;
+    color: #fff;
+    line-height: 200px;
+    font-size: 36px;
+    text-align: center;
+    margin-left: -10%;
+    z-index:999;
+
+  }
+  .ribbon:before {
+    content: '';
+    width: 145px;
+    border: 18px solid #FFA626;
+    border-left-color: transparent;
+    border-left-width: 23px;
+    position: absolute;
+    top: 140px;
+  }
+  .ribbon:after {
+    content: '';
+    border: 1px solid transparent;
+    border-left-color: #FFA626;
+    border-left-width: 1px;
+    position: absolute;
+    top: 0;
+    right: -60px;
+  }
+}

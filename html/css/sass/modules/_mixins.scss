@@ -1,0 +1,38 @@
+// HOME LAYOUT
+@mixin pointer {
+	width: 100%;
+	text-align:center;
+	position:absolute;
+	margin-top:-62px;
+}
+@mixin padding-home($height)
+{
+	min-height:#{$height}px;
+	padding:60px 15px;
+}
+@mixin bg-full($section) {
+	background:url("../images/#{$section}") center center no-repeat;
+	background-size:cover;
+}
+@mixin transition($all,$s,$e){
+	-webkit-transition: #{$all} #{$s} #{$e};
+	-moz-transition: #{$all} #{$s} #{$e};
+	-ms-transition: #{$all} #{$s} #{$e};
+	-o-transition: #{$all} #{$s} #{$e};
+	transition: #{$all} #{$s} #{$e};
+}
+
+@mixin box-shadow($a,$b,$c,$d){
+	-webkit-box-shadow: #{$a} #{$b} #{$c} #{$d};
+	-moz-box-shadow: #{$a} #{$b} #{$c} #{$d};
+	-ms-box-shadow: #{$a} #{$b} #{$c} #{$d};
+	-o-box-shadow: #{$a} #{$b} #{$c} #{$d};
+	box-shadow: #{$a} #{$b} #{$c} #{$d};
+}
+@mixin scale($all){
+	-webkit-transform:scale(#{$all}); /* Safari and Chrome */
+    -moz-transform:scale(#{$all}); /* Firefox */
+    -ms-transform:scale(#{$all}); /* IE 9 */
+    -o-transform:scale(#{$all}); /* Opera */
+    transform:scale(#{$all});
+}

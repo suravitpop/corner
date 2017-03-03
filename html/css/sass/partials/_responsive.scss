@@ -1,0 +1,19 @@
+@include max-screen(576px) {
+
+}
+@include screen(576px,768px) {
+
+}
+@include screen(768px, 992px) {
+
+}
+@include screen(992px, 1200px) {
+
+}
+@include screen(1200px,1441px) {
+
+}
+@include min-screen (1441px) {
+
+}
+
