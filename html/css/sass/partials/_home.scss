@@ -1,8 +1,14 @@
-.banner{
-    background: url("/resources/images/clchristmas.jpg") no-repeat center center fixed;
+.banner {
+    background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:300px;
+    height: 700px;
+
+    h1 {
+        font-size: 56px;
+        text-align: center;
+        padding: 322px;
+    }
 }

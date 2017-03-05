@@ -48,25 +48,28 @@
 
 // Utility classes
 @import "bootstrap/utilities";
-@import "bootstrap/responsive-utilities"; 
+@import "bootstrap/responsive-utilities";
 /*=================== BOOTSRTAP SCSS =======================*/
 
 
 @import "modules/all";
 @import "vendor/media-queries";
 
-
-@import "partials/header";
-@import "partials/footer";
-@import "partials/home";
 @import "partials/about";
-@import "partials/news";
 @import "partials/contactus";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/home";
 @import "partials/login";
+@import "partials/news";
+
+
+
+
+
 
 
 
 
 // RESPONSIVE
 @import "partials/responsive";
-

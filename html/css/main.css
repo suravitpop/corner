@@ -5831,30 +5831,12 @@ button.close {
     font-family: "thai-reg";
     src: url("/resources/font/DBHelvethaicaX-Reg.svg#thai-reg") format("svg"); } }
 html, body {
-  width: 100%;
+  max-width: 100%;
   font-family: 'thai-reg' !important;
   height: 100%; }
 
 body {
   width: 100%; }
-
-.right-md {
-  text-align: right; }
-
-.s475 {
-  display: none; }
-
-.show690 {
-  display: none; }
-
-.inline {
-  display: inline-block; }
-
-.w100 {
-  width: 100%; }
-
-.in-bl {
-  display: inline-block; }
 
 .flex {
   display: flex;
@@ -5912,10 +5894,29 @@ a:focus {
   width: 100%;
   margin-top: 30px; }
 
-.v-align {
-  vertical-align: top;
-  float: none;
+footer {
+  background-color: #00A79D;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
   width: 100%; }
+  footer .social {
+    vertical-align: bottom;
+    font-size: 22px;
+    width: 750px; }
+    footer .social .row {
+      top: 8px;
+      position: relative; }
+      footer .social .row i.fa {
+        border-radius: 50%;
+        border: 0.5px solid;
+        color: #00A79D;
+        font-size: 25px;
+        padding: 8px;
+        background-color: #ffffff; }
+      footer .social .row i.fa.fb {
+        padding: 8px 14px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0 !important; }
@@ -5995,36 +5996,16 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: -60px; }
 
-footer {
-  background-color: #00A79D;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 60px;
-  width: 100%; }
-  footer .social {
-    vertical-align: bottom;
-    font-size: 22px;
-    width: 750px; }
-    footer .social .row {
-      top: 8px;
-      position: relative; }
-      footer .social .row i.fa {
-        border-radius: 50%;
-        border: 0.5px solid;
-        color: #00A79D;
-        font-size: 25px;
-        padding: 8px;
-        background-color: #ffffff; }
-      footer .social .row i.fa.fb {
-        padding: 8px 14px; }
-
 .banner {
-  background: url("/resources/images/clchristmas.jpg") no-repeat center center fixed;
+  background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px; }
+  height: 700px; }
+  .banner h1 {
+    font-size: 56px;
+    text-align: center;
+    padding: 322px; }
 
 /*# sourceMappingURL=main.css.map */
