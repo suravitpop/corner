@@ -1,14 +1,45 @@
-.banner {
-    background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 700px;
+.home{
 
-    h1 {
-        font-size: 56px;
-        text-align: center;
-        padding: 322px;
+    .banner {
+        background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 700px;
+
+
+        h1 {
+            font-size: 56px;
+            text-align: center;
+            padding: 322px;
+        }
+
+
+    }
+    .menu2{
+        .container{
+            .roll{
+
+                h2{
+                    padding-top:30px;
+                    font-size:50px;
+                }
+                p{
+                    text-indent: 50px;
+                    font-size: 24px;
+                }
+                .bg-img{
+                    background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    height: 300px;
+                }
+            }
+        }
+
     }
 }
+

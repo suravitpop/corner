@@ -5896,11 +5896,11 @@ a:focus {
 
 footer {
   background-color: #00A79D;
-  position: absolute;
+  position: relative;
   left: 0px;
-  bottom: 0px;
   height: 60px;
-  width: 100%; }
+  width: 100%;
+  bottom: 0px; }
   footer .social {
     vertical-align: bottom;
     font-size: 22px;
@@ -5996,16 +5996,29 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: -60px; }
 
-.banner {
+.home .banner {
   background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 700px; }
-  .banner h1 {
+  .home .banner h1 {
     font-size: 56px;
     text-align: center;
     padding: 322px; }
+.home .menu2 .container .roll h2 {
+  padding-top: 30px;
+  font-size: 50px; }
+.home .menu2 .container .roll p {
+  text-indent: 50px;
+  font-size: 24px; }
+.home .menu2 .container .roll .bg-img {
+  background: url("../../../../resources/images/CornerB.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px; }
 
 /*# sourceMappingURL=main.css.map */
